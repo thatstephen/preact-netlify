@@ -7,6 +7,7 @@ import Header from './header';
 import Home from '../routes/home';
 import Blogs from '../routes/blogs';
 import Blog from '../routes/blog';
+import Cv from '../routes/cv';
 import Contact from '../routes/contact';
 import ContactSuccess from '../routes/contact-success';
 import NotFoundPage from '../routes/notfound';
@@ -30,6 +31,7 @@ export default class App extends Component {
 						<Home path="/" />
 						<Blogs path="/blogs/" />
 						<Blog path="/blog/:name" />
+						<Cv path="/cv/" />
 						<Contact path="/contact/" />
 						<ContactSuccess path="/contact/success" />
 						<NotFoundPage type="404" default />
